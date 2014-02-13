@@ -1,0 +1,29 @@
+{
+  "name": "gulp-xlsx2json",
+  "version": "0.1.0",
+  "description": "xlsx to json using gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "gulp",
+    "xls",
+    "json"
+  ],
+  "dependencies": {
+    "gulp-util": "~2.2.0",
+    "graceful-fs": "~2.0.0",
+    "filesize": "~2.0.0",
+    "temp-write": "~0.1.0",
+    "map-stream": "0.0.4",
+    "gulp": "~3.5.2",
+    "csv": "~0.3.7",
+    "xlsx": "~0.5.5"
+  },
+  "author": "chilijung",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
