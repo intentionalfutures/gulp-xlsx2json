@@ -1,5 +1,7 @@
 # gulp-xlsx2json
 
+[![Build Status](https://travis-ci.org/DataGarage/gulp-xlsx2json.png?branch=master)](https://travis-ci.org/DataGarage/gulp-xlsx2json)
+
 gulp plugin convert xlsx to json
 
 ## Install
