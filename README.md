@@ -18,10 +18,12 @@ npm install --save-dev gulp-xlsx2json
 ```js
 var gulp = require('gulp');
 var xlsx2json = require('gulp-xlsx2json');
+var rename = require('gulp-rename');
 
 gulp.task('default', function () {
 	gulp.src('src/**/*.xlsx')
 		.pipe(xlsx2json())
+		.pipe(rename({extname: '.json'}))
 		.pipe(gulp.dest('dist'));
 });
 ```

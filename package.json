@@ -1,7 +1,8 @@
 {
   "name": "gulp-xlsx2json",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "xlsx to json using gulp",
+	"repository": "https://github.com/DataGarage/gulp-xlsx2json",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -19,7 +20,8 @@
     "map-stream": "0.0.4",
     "gulp": "~3.5.2",
     "csv": "~0.3.7",
-    "xlsx": "~0.5.5"
+    "xlsx": "~0.5.5",
+    "gulp-rename": "~1.1.0"
   },
   "author": "chilijung",
   "license": "MIT",
