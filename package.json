@@ -2,7 +2,7 @@
   "name": "gulp-xlsx2json",
   "version": "0.1.2",
   "description": "xlsx to json using gulp",
-	"repository": "https://github.com/DataGarage/gulp-xlsx2json",
+  "repository": "https://github.com/DataGarage/gulp-xlsx2json",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
