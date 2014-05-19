@@ -10,7 +10,8 @@
   "keywords": [
     "gulp",
     "xls",
-    "json"
+    "json",
+    "gulpplugin"
   ],
   "dependencies": {
     "gulp-util": "~2.2.0",
