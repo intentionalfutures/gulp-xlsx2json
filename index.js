@@ -45,7 +45,7 @@ module.exports = function (options) {
                     var wb = xlsx.readFile(tempFile);
                     var wsCv = function(wb) {
                         var ws
-                        var target_sheet = '';
+                        var target_sheet = options.target_sheet || '';
 
                         if(target_sheet === '') 
                             target_sheet = wb.SheetNames[0];
