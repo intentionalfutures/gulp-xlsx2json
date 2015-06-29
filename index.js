@@ -7,8 +7,6 @@ var filesize = require('filesize');
 var tempWrite = require('temp-write');
 var xlsx = require('xlsx');
 var csv = require('csv');
-var record = [];
-var header = [];
 
 module.exports = function (options) {
     return map(function (file, cb) {
@@ -26,6 +24,9 @@ module.exports = function (options) {
         }
 
         tempWrite(file.contents, path.extname(file.path), function (err, tempFile) {
+            var record = [];
+            var header = [];
+
             if (err) {
                 return cb(new gutil.PluginError('gulp-xlsx2json', err));
             }
